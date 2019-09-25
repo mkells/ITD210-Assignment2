@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* common css */
+
+
+
+
+html {
+	height: 100%;
+	background: rgb(180, 18, 0);
+}
+body {
+	background: linear-gradient(white, silver);
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	
+	height: 95%;
+}
+nav {
+	width: 100%;
+	padding-top: 5%;
+	float: left;
+	text-align: center;
+	}
+
+nav ul{
+	padding-inline-start: 0px;
+
+}
+
+nav ul li {
+	display: block;
+	float: left;
+	text-align: center;
+	font-size: 1.5em;
+	width: 20%;
+}
+
+article#main {
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+footer {
+	text-align: center;
+	clear: left;
+	padding-top: 5%;
+}
+
+/* sedan css */
+ul#cardata {
+	display: block;
+	float: right;
+	font-size: 0.75em;
+	
+}
+
