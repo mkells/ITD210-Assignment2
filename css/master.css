@@ -1,7 +1,15 @@
 html {
-  background-image: linear-gradient(#ffffff, #5c5c5c);
+  background: rgb(180, 18, 0);
   background-repeat: no-repeat;
   height: auto;
+}
+
+body {
+  background: linear-gradient(white, silver);
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 95%;
 }
 
 .logo {
@@ -11,12 +19,20 @@ html {
   margin: auto;
   padding-bottom: 20px;
 }
+
+.navbar {
+  width: 100%;
+  pading-top: 5%;
+  float: left;
+  text-align: center;
+}
 .navbar li {
-  line-height: 30px;
-  height: 30px;
-  font-size: 20px;
+  font-size: 1.5em;
   display: inline-block;
-  margin-right: 25px;
+  float: left;
+  text-align: center;
+  width: 20%
+
 }
 
 .navbar ul {
