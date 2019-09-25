@@ -9,15 +9,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
-  height: 95%;
+  height: 100%;
 }
 
 .logo {
-  height: 15%;
-  width: 15%;
+  height:40%;
+  width: 50%;
   display: block;
   margin: auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .navbar {
@@ -25,11 +26,11 @@ body {
   pading-top: 5%;
   float: left;
   text-align: center;
+  padding-bottom: 25px;
 }
 .navbar li {
   font-size: 1.5em;
   display: inline-block;
-  float: left;
   text-align: center;
   width: 20%
 
@@ -44,21 +45,21 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: red;
+  color: rgb(180, 18, 0);
   display: block;
 }
 
 
 h1 {
   text-align: center;
-  color: red;
+  color: rgb(180, 18, 0);
   font-size: 50px;
 }
 
 h2 {
   text-align: center;
   font-size: 35px;
-  color: red;
+  color: rgb(180, 18, 0);
 }
 
 h3 {
@@ -99,5 +100,6 @@ h3 {
 footer {
   text-align: center;
   font-size: 30px;
-  color: red;
+  color: rgb(180, 18, 0);
+  padding-bottom: 5px;
 }
