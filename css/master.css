@@ -23,7 +23,7 @@ body {
 
 .navbar {
   width: 100%;
-  pading-top: 5%;
+  padding-top: 5%;
   float: left;
   text-align: center;
   padding-bottom: 25px;
@@ -48,7 +48,6 @@ body {
   color: rgb(180, 18, 0);
   display: block;
 }
-
 
 h1 {
   text-align: center;
@@ -95,6 +94,10 @@ h3 {
 .features {
   float: left;
   width: 50%;
+}
+
+.carosel .item {
+  height: 400px;
 }
 
 footer {
